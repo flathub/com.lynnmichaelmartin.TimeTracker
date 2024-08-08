@@ -39,8 +39,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/elvishcraftsman/time-tracker.git",
-                    "tag" : "v1.1.8",
-                    "commit" : "61c4f1f0b4c458a24b3ed48fbefb058069d36c31"
+                    "tag" : "v2.0.0",
+                    "commit" : "e81a8b00c40584b508765df1ed5117f7ffd4d5db"
                 }
             ]
         }
