@@ -1,10 +1,10 @@
 {
     "id" : "com.lynnmichaelmartin.TimeTracker",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46",
+    "runtime-version" : "47",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
-        "org.freedesktop.Sdk.Extension.node18",
+        "org.freedesktop.Sdk.Extension.node20",
         "org.freedesktop.Sdk.Extension.typescript"
     ],
     "command" : "com.lynnmichaelmartin.TimeTracker",
@@ -17,7 +17,7 @@
         "--filesystem=home"
     ],
     "build-options" : {
-        "append-path" : "/usr/lib/sdk/typescript/bin:/usr/lib/sdk/node18/bin"
+        "append-path" : "/usr/lib/sdk/typescript/bin:/usr/lib/sdk/node20/bin"
     },
     "cleanup" : [
         "/include",
@@ -39,8 +39,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/elvishcraftsman/time-tracker.git",
-                    "tag" : "v2.0.2",
-                    "commit" : "4a1823ec375a6bc9d20c081d795993be41675b81"
+                    "tag" : "v2.0.3",
+                    "commit" : "7d3ea41727b339b0859cc7dea14f4d0400155b6a"
                 }
             ]
         }
