@@ -1,10 +1,10 @@
 {
     "id" : "com.lynnmichaelmartin.TimeTracker",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "48",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
-        "org.freedesktop.Sdk.Extension.node20",
+        "org.freedesktop.Sdk.Extension.node22",
         "org.freedesktop.Sdk.Extension.typescript"
     ],
     "command" : "com.lynnmichaelmartin.TimeTracker",
@@ -39,8 +39,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/elvishcraftsman/time-tracker.git",
-                    "tag" : "v2.1.0",
-                    "commit" : "923a84981105d2c9fb0abcda1242d5e0c3861553"
+                    "tag" : "v2.1.2",
+                    "commit" : "60874a188d5fb8fa5b89f5133e91c95a42c655cd"
                 }
             ]
         }
